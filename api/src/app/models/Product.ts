@@ -18,17 +18,17 @@ export const Product = model('Product', new Schema({
         required: true,
     },
     ingerdients: {
-        type: [
-            {
-                name: String,
+        required: true,
+        type: [{
+            name: {
+                type: String,
                 required: true,
             },
-            {
-                icon: String,
+            icon: {
+                type: String,
                 required: true,
-            }
-        ],
-        required: true
+            },
+        }],
     },
     category: {
         type: Schema.Types.ObjectId,

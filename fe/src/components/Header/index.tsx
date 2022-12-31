@@ -1,5 +1,3 @@
-
-
 import { Container, Content } from './styles';
 
 import logo from '../../assets/images/logo.svg';

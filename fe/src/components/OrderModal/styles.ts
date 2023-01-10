@@ -53,7 +53,7 @@ export const OrderDetails = styled.div`
     font-size: 14px;
     opacity: 0.8;
   }
-  .order-itens {
+  .order-items {
     margin-top: 16px;
     .item {
       display: flex;
